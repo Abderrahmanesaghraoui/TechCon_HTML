@@ -7,21 +7,37 @@
     <a href="schedule.html">Shedule</a>
   </nav>
 </header>
-<main>
-  <a href="mailto:email@example.com"></a>
-  <a href="https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwiMpdiEpbKKAxVCVaQEHfsoCMAQPAgI" target="blank">Google</a>
-  <iframe> <a href="https://www.google.com/maps/@21.0387217,105.7817828,19z?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D">Location</a></iframe>
-  <form>
-    <div>
-      <label>text</label>
-    <input type="text">
-    </div>
-    <div>
-      <label>Email</label>
-      <input type="email">
-    </div>
-    <input type="submit">
-   
-  </form>
-</main>
+ <main>
+        <section>
+            <h2>Contact Information</h2>
+            <p>Email: <a href="mailto:contact@techcon2024.com">contact@techcon2024.com</a></p>
+            <p>Follow us on:</p>
+            <ul>
+                <li><a href="https://twitter.com/techcon2024" target="_blank">Twitter</a></li>
+                <li><a href="https://facebook.com/techcon2024" target="_blank">Facebook</a></li>
+                <li><a href="https://instagram.com/techcon2024" target="_blank">Instagram</a></li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Our Location</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.8354345090084!2d-122.41941548468117!3d37.774929679758004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085809c5bb233bd%3A0xa84c63cc7edc073b!2sSan+Francisco%2C+CA!5e0!3m2!1sen!2sus!4v1605488383952!5m2!1sen!2sus" allowfullscreen loading="lazy"></iframe>
+        </section>
+
+        <section>
+            <h2>Contact Us Form</h2>
+            <form action="/submit-form" method="POST">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
 <footer> <p>copyright 2024</p></footer>
