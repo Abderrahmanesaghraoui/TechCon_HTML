@@ -1,0 +1,37 @@
+ <header>
+        <h1>Register for TechCon 2024</h1>
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="schedule.html">Schedule</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Registration Form</h2>
+        <form action="/submit-registration" method="post">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required>
+
+            <label for="confirm-password">Confirm Password:</label>
+            <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm your password" required>
+
+            <label>
+                <input type="checkbox" id="terms" name="terms" required>
+                I agree to the terms and conditions.
+            </label>
+
+            <button type="submit">Register Now</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 TechCon. All rights reserved.</p>
+    </footer>
